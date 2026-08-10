@@ -1,0 +1,29 @@
+### macOS ###
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+### Node ###
+# Logs
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Webstrom directories
+.idea
+
+# Appium / local tooling
+.idea/
+*.log
+.appium/
+
+# Keep cucumber reports for evaluation evidence (json + html)
+# Ignore only transient OS junk under reports if needed
+
+# Ignore stale local report dumps (keep committed ecommerce evidence only)
+reports/html/features/*
+!reports/html/features/6b5f47fd-c256-40f2-82fe-40c3246d98bb-basic-e-commerce-purchase-flow-on-native-android-app.html
